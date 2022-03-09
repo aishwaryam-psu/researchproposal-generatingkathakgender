@@ -57,9 +57,23 @@
       display: inline-block;
       width: 255px;
       height: 402px;
-      padding-right: 50px;
       padding-bottom: 15px;
       padding-top: 15px;
+    }
+    * {
+    box-sizing: border-box;
+    }
+
+   .img-container {
+      float: left;
+      margin-left: 75px;
+      padding: 5px;
+    }
+
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
     }
   </style>
   <title>HON202 Research Proposal</title>
@@ -85,15 +99,25 @@
         One such expansion divides the <i>Nayikas</i> into five categories: the Nayika’s relation to the Nayak (hero), the Nayika’s age, the Nayika’s personality, the Nayika’s emotional state, and the Nayika’s physical appearance.
         </p>
       
+      <div class="clearfix">
+         <div class="img-container">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Brooklyn_Museum_-_Khandita_Nayika.jpg/340px-Brooklyn_Museum_-_Khandita_Nayika.jpg" alt="Khandita Nayika">
         <figcaption>Khandita Nayika</figcaption>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Abhisarika-nayika-mola-ram.jpg" alt="Abhisaarika Nayika">
+        </div>
+        <div class="img-container">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Abhisarika-nayika-mola-ram.jpg" alt="Abhisaarika Nayika">
         <figcaption>Abhisaarika Nayika</figcaption>
+        </div>
+       <div class="img-container">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Proshita-patika_Nayika.jpg/340px-Proshita-patika_Nayika.jpg" alt="Proshitapatika Nayika">
         <figcaption>Proshitapatika Nayika</figcaption>
+        </div>
+      <div class="img-container">
       <img src="https://i.pinimg.com/originals/12/fd/d6/12fdd65267a1ffc8c51224f493c420cc.jpg" alt="Swadhinapatika Nayika">
         <figcaption>Swadhinapatika Nayika</figcaption>
+        </div>
       
+      </div>
       <br>
         <p>Here, one can already establish the clear gender distinctions between Nayikas and Nayaks. These theoretical roles transform into movement-based gender distinctions: 
         Purnima Shah’s article “Transcending Gender in the Performance of Kathak” from the <i>Dance Research Journal</i> highlights these distinctions with the 
