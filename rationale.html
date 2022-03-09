@@ -56,6 +56,28 @@
       background-color: #06373A;
       color: #E9DCC9;
     }
+    img {
+      display: inline-block;
+      width: 650px;
+      height: 400px;
+      padding-bottom: 15px;
+      padding-top: 15px;
+    }
+    * {
+    box-sizing: border-box;
+    }
+
+   .img-container {
+      float: left;
+      margin-left: 75px;
+      padding: 5px;
+    }
+
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
   </style>
     <title>HON202 Research Proposal</title>
     </head>
@@ -63,6 +85,15 @@
       <body>
       
       <h4><u>Rationale</u></h4>
+        
+     <div class="clearfix">
+         <div class="img-container">
+      <img src="https://i2.wp.com/cdn.whatsuplife.in/bengaluru/blog/2019/04/kathak-studio2.jpg" alt="Women in a Kathak Class">
+        </div>
+        <div class="img-container">
+     <img src="https://static.toiimg.com/thumb/msid-70134511,width-1070,height-580,imgsize-55074,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg" alt="Guru Shama Bhate Teaching a Class">
+        </div>
+     </div>
      
         <h4>This project asks several questions regarding gender identity, Kathak dance, and Kathak pedagogy, concentrated on theory and practicum.</h4>
               <p><b><u>How has Kathak theory evolved between the late 19th century and the present, with regards to the gender identities it creates?</u></b></p>
